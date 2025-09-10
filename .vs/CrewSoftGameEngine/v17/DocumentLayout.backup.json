@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE73C726-36BA-443A-8124-FEADF739BD30}|CrewSoftGameEngine.vcxproj|D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\Game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BE73C726-36BA-443A-8124-FEADF739BD30}|CrewSoftGameEngine.vcxproj|solutionrelative:Game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BE73C726-36BA-443A-8124-FEADF739BD30}|CrewSoftGameEngine.vcxproj|D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\DX3D\\Include\\DX3D\\Window\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE73C726-36BA-443A-8124-FEADF739BD30}|CrewSoftGameEngine.vcxproj|solutionrelative:DX3D\\Include\\DX3D\\Window\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE73C726-36BA-443A-8124-FEADF739BD30}|CrewSoftGameEngine.vcxproj|D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\DX3D\\Source\\DX3D\\Core\\Base.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE73C726-36BA-443A-8124-FEADF739BD30}|CrewSoftGameEngine.vcxproj|solutionrelative:DX3D\\Source\\DX3D\\Core\\Base.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE73C726-36BA-443A-8124-FEADF739BD30}|CrewSoftGameEngine.vcxproj|D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\DX3D\\Include\\DX3D\\Core\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE73C726-36BA-443A-8124-FEADF739BD30}|CrewSoftGameEngine.vcxproj|solutionrelative:DX3D\\Include\\DX3D\\Core\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\Game\\main.cpp",
-              "RelativeDocumentMoniker": "Game\\main.cpp",
-              "ToolTip": "D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\Game\\main.cpp",
-              "RelativeToolTip": "Game\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "Window.h",
+              "DocumentMoniker": "D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\DX3D\\Include\\DX3D\\Window\\Window.h",
+              "RelativeDocumentMoniker": "DX3D\\Include\\DX3D\\Window\\Window.h",
+              "ToolTip": "D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\DX3D\\Include\\DX3D\\Window\\Window.h",
+              "RelativeToolTip": "DX3D\\Include\\DX3D\\Window\\Window.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-10T18:54:43.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Base.cpp",
+              "DocumentMoniker": "D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\DX3D\\Source\\DX3D\\Core\\Base.cpp",
+              "RelativeDocumentMoniker": "DX3D\\Source\\DX3D\\Core\\Base.cpp",
+              "ToolTip": "D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\DX3D\\Source\\DX3D\\Core\\Base.cpp",
+              "RelativeToolTip": "DX3D\\Source\\DX3D\\Core\\Base.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-10T18:18:59.07Z",
+              "WhenOpened": "2025-09-10T18:44:32.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Base.h",
+              "DocumentMoniker": "D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\DX3D\\Include\\DX3D\\Core\\Base.h",
+              "RelativeDocumentMoniker": "DX3D\\Include\\DX3D\\Core\\Base.h",
+              "ToolTip": "D:\\CrewSoftGameEngine\\CrewSoftGameEngine\\DX3D\\Include\\DX3D\\Core\\Base.h",
+              "RelativeToolTip": "DX3D\\Include\\DX3D\\Core\\Base.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-10T18:41:34.746Z",
               "EditorCaption": ""
             }
           ]

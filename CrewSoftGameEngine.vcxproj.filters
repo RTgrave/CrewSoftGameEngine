@@ -18,12 +18,18 @@
     <ClCompile Include="Game\main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Source\DX3D\Core\Base.cpp">
+    <ClCompile Include="DX3D\Source\DX3D\Core\Base.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DX3D\Source\DX3D\Window\Window.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DX3D\Include\DX3D\Core\Base.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="DX3D\Include\DX3D\Window\Window.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
