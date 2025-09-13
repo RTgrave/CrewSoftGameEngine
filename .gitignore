@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+.vs/CrewSoftGameEngine/v17/ipch/AutoPCH/32da6914e443039/RENDERSYSTEM.ipch
+.vs/CrewSoftGameEngine/v17/ipch/AutoPCH/5d11faf51ef983d2/WIN32WINDOW.ipch
+.vs/CrewSoftGameEngine/v17/ipch/AutoPCH/58e188877c3868e3/RENDERSYSTEM.ipch
+.vs/CrewSoftGameEngine/v17/ipch/AutoPCH/7573e976bc8bfe7d/WINDOW.ipch
+.vs/CrewSoftGameEngine/v17/ipch/AutoPCH/df6e7dafdaceaec9/WIN32GAME.ipch
