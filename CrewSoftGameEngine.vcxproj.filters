@@ -21,10 +21,22 @@
     <ClCompile Include="DX3D\Source\DX3D\Core\Base.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="DX3D\Source\DX3D\Window\Window.cpp">
+    <ClCompile Include="DX3D\Source\DX3D\Window\Win32Window.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="DX3D\Source\DX3D\Game\Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DX3D\Source\DX3D\Game\Win32\Win32Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DX3D\Source\DX3D\Graphics\GraphicsEngine.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DX3D\Source\DX3D\Graphics\RenderSystem.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DX3D\Source\DX3D\Core\Logger.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,6 +48,21 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="DX3D\Include\DX3D\Game\Game.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="DX3D\Include\DX3D\Core\Core.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="DX3D\Include\DX3D\All.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="DX3D\Include\DX3D\Graphics\GraphicsEngine.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="DX3D\Include\DX3D\Graphics\RenderSystem.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="DX3D\Include\DX3D\Core\Logger.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
