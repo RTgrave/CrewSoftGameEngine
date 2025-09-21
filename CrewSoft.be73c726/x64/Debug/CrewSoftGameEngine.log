@@ -1,7 +1,9 @@
-﻿  Game.cpp
+﻿  Base.cpp
+  Logger.cpp
+  Game.cpp
   Win32Game.cpp
-  main.cpp
   GraphicsEngine.cpp
   RenderSystem.cpp
-  Logger.cpp
+  Win32Window.cpp
+  main.cpp
   CrewSoftGameEngine.vcxproj -> D:\CrewSoftGameEngine\CrewSoftGameEngine\x64\Debug\CrewSoftGameEngine.exe
