@@ -1,8 +1,10 @@
 #pragma once
-#include <DX3D/Core/Base.h>
+#include <DX3D/Core/Common.h>
 
 namespace dx3d
 {
+	//Узнать больше про Singleton
+	//Здесь используется Dependency Injection
 	class Base
 	{
 	public:
@@ -16,7 +18,6 @@ namespace dx3d
 		Base& operator = (const Base&) = delete;
 		Base& operator = (Base&&) = delete;
 
-		// Singleton, Dependency enjection - learn more
 	protected:
 		Logger& m_logger;
 	};

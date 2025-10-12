@@ -3,12 +3,13 @@
 #include <DX3D/Graphics/GraphicsEngine.h>
 #include <DX3D/Core/Logger.h>
 
-dx3d::Game::Game()
+dx3d::Game::Game(const GameDesc& desc) :
+	Base({ *std::make_unique<Logger>(desc.logLevel).release()}), //Понять лучше что тут написано
+	m_loggerPtr(&m_logger)
 {
-	m_loggerPtr = std::make_unique<Logger>(Logger::LogLevel::Info);
 	//Узнать больше про Smart Pointer
-	m_graphicsEngine = std::make_unique<GraphicsEngine>();
-	m_display = std::make_unique<Window>();
+	m_graphicsEngine = std::make_unique<GraphicsEngine>(GraphicsEngineDesc{m_logger});
+	m_display = std::make_unique<Window>(WindowDesc{ m_logger });
 
 
 	m_loggerPtr->log(Logger::LogLevel::Info, "Game Initialized");
