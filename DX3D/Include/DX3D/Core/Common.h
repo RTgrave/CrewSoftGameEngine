@@ -1,3 +1,4 @@
+
 #pragma once
 #include <DX3D/Core/Core.h>
 #include <DX3d/Core/Logger.h>
@@ -22,6 +23,11 @@ namespace dx3d
 	struct RenderSystemDesc
 	{
 		BaseDesc base;
+	};
+
+	struct SwapChainDesc
+	{
+		
 	};
 
 	struct GameDesc

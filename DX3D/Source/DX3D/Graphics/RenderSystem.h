@@ -16,6 +16,7 @@ namespace dx3d
 		Microsoft::WRL::ComPtr<ID3D11DeviceContext> m_d3dContext{};
 		Microsoft::WRL::ComPtr<IDXGIDevice> m_dxgiDevice{};
 		Microsoft::WRL::ComPtr<IDXGIAdapter> m_dxgiAdapter{};
+		Microsoft::WRL::ComPtr<IDXGIFactory> m_dxgiFactory{};
 	};
 }
 
